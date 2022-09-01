@@ -1,9 +1,17 @@
 package com.example.StudentManagementSystemBackend.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Student {
+    @Id
     private Integer id;
     private String name;
     private String address;
+
+    public Student() {
+    }
 
     public Student(Integer id, String name, String address) {
         this.id = id;
