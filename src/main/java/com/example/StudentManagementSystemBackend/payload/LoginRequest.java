@@ -1,8 +1,8 @@
 package com.example.StudentManagementSystemBackend.payload;
 
 public class LoginRequest {
-    private String username;
 
+    private String username;
     private String password;
 
     public String getUsername() {
@@ -20,5 +20,4 @@ public class LoginRequest {
     public void setPassword(String password) {
         this.password = password;
     }
-
 }
