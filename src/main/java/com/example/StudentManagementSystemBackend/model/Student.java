@@ -1,12 +1,9 @@
 package com.example.StudentManagementSystemBackend.model;
 
-import org.springframework.web.bind.annotation.CrossOrigin;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-@CrossOrigin(origins = "http://localhost:8080")
 public class Student {
     @Id
     private Integer id;
