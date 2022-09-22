@@ -1,7 +1,7 @@
 package com.example.StudentManagementSystemBackend.controller;
 
+import com.example.StudentManagementSystemBackend.model.LoginRequest;
 import com.example.StudentManagementSystemBackend.model.Student;
-import com.example.StudentManagementSystemBackend.payload.LoginRequest;
 import com.example.StudentManagementSystemBackend.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
