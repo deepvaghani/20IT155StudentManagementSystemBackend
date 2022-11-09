@@ -21,16 +21,6 @@ public class StudentController {
 
     @Autowired
     AuthenticationManager authenticationManager;
-//    List<Student> students = new ArrayList<>(
-//            Arrays.asList(
-//                    new Student(1, "Tom", "US"),
-//                    new Student(2, "Harry", "Canada"),
-//                    new Student(3, "Nick", "UK")
-//            )
-//    );
-
-    // Mappings - URL endpoints
-    // Get the list of all student
     @PostMapping("/login")
     public String doLogin(@RequestBody LoginRequest loginRequest){
         Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(
